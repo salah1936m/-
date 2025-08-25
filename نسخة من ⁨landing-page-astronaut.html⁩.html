@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مصباح رجل الفضاء الأسود</title>
+<style>
+  body {
+    margin:0;
+    font-family: 'Cairo', sans-serif;
+    background: linear-gradient(to bottom right, #1a1c2c, #3b3e5a);
+    color: #fff;
+    text-align:center;
+  }
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  .product-image img {
+    max-width:100%;
+    border-radius:12px;
+    box-shadow:0 4px 20px rgba(0,0,0,.6);
+  }
+  h1 {
+    margin:1rem 0 .5rem;
+    font-size:1.5rem;
+  }
+  p.desc {
+    margin:.5rem 0 1rem;
+    font-size:1rem;
+    line-height:1.6;
+  }
+  .price {
+    font-size:1.2rem;
+    margin:1rem 0;
+    font-weight:bold;
+    color:#ffd54f;
+  }
+  form {
+    background:rgba(255,255,255,0.08);
+    padding:1rem;
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    gap:.75rem;
+    text-align:right;
+  }
+  label {
+    font-size:.9rem;
+  }
+  input {
+    padding:.6rem;
+    border:none;
+    border-radius:6px;
+    font-size:1rem;
+  }
+  button {
+    padding:.8rem;
+    background:#ffca28;
+    color:#000;
+    font-size:1rem;
+    font-weight:bold;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+  }
+  button:hover {
+    background:#ffd54f;
+  }
+  footer {
+    margin-top:1.5rem;
+    font-size:.85rem;
+    color:#ccc;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="product-image">
+      <img src="https://i.ibb.co/5KWY0HP/astronaut-black.png" alt="مصباح رجل الفضاء الأسود">
+    </div>
+    <h1>مصباح رجل الفضاء الأسود الأصلي</h1>
+    <p class="desc">
+      بدّل جو غرفتك وعِش عالم خيالي بأضواء تبدل الألوان وراحة للعين 🌌<br>
+      التوصيل متوفر لكل الولايات 🚚 والدفع عند الاستلام 💵
+    </p>
+    <div class="price">السعر: 2900 دج فقط</div>
+    <form onsubmit="alert('تم استلام طلبك بنجاح! سنتواصل معك قريبًا'); return false;">
+      <label>الاسم
+        <input type="text" name="name" required placeholder="اكتب اسمك الكامل">
+      </label>
+      <label>رقم الهاتف
+        <input type="tel" name="phone" required placeholder="05xxxxxxxx">
+      </label>
+      <button type="submit">إرسال الطلب</button>
+    </form>
+    <footer>© GLORIOUS_STORE</footer>
+  </div>
+</body>
+</html>
